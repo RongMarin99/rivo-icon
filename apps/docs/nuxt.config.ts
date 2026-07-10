@@ -1,4 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { readFileSync } from 'node:fs'
+import { resolve } from 'node:path'
+
 export default defineNuxtConfig({
   ssr: true,
   devtools: { enabled: true },
@@ -40,5 +43,15 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: process.env.VERCEL ? 'vercel' : 'node-server',
+    virtual: {
+      '#icons-data': () => {
+        try {
+          const data = readFileSync(resolve(process.cwd(), 'public/icons.json'), 'utf-8')
+          return `export default ${data}`
+        } catch {
+          return 'export default []'
+        }
+      },
+    },
   },
 })
