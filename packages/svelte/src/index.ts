@@ -40,6 +40,8 @@ export { default as Bandage } from './Bandage.svelte';
 export { default as BarChart } from './BarChart.svelte';
 export { default as Barbell } from './Barbell.svelte';
 export { default as Barcode } from './Barcode.svelte';
+export { default as Baseball } from './Baseball.svelte';
+export { default as Basket } from './Basket.svelte';
 export { default as Clock } from './Clock.svelte';
 export { default as Dollar } from './Dollar.svelte';
 export { default as Plus } from './Plus.svelte';

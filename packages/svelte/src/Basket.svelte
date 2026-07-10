@@ -18,5 +18,5 @@
   stroke-linejoin="round"
   class={className}
 >
-  {@html "<g stroke=\"currentColor\"><path stroke-width=\"1.001\" d=\"M3 12h18\"/><path stroke-linecap=\"round\" stroke-width=\"2.002\" d=\"M3 9.5v5m18-5v5\"/><path stroke-linecap=\"round\" stroke-width=\"2.999\" d=\"M5.998 8v8m12.004-8v8\"/></g>"}
+  {@html "<g stroke=\"currentColor\" transform=\"translate(-53.785 -52.54)scale(1.25905)\"><path stroke-linecap=\"round\" d=\"M48.5 49h-3.806a.5.5 0 0 0-.475.658l2.667 8a.5.5 0 0 0 .474.342h9.78a.5.5 0 0 0 .474-.342l2.667-8a.5.5 0 0 0-.475-.658H56m-7.5 0 3.583-4.479a.5.5 0 0 1 .8.026L56 49m-7.5 0H56\"/><circle cx=\"52.5\" cy=\"53.5\" r=\"1.5\"/></g>"}
 </svg>

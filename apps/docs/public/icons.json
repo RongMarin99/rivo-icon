@@ -207,7 +207,7 @@
     "name": "Balloon",
     "kebabName": "balloon",
     "variant": "outline",
-    "svg": "<svg width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke=\"currentColor\" stroke-width=\"4.333\"><path stroke-width=\"1.43049662\" d=\"M9.497.495a6.484 6.484 0 0 1 8.324 3.859c.619 1.702.669 4.254.124 6.552a10 10 0 0 1-1.177 2.991 3.7 3.7 0 0 1-1.773 1.598 3.7 3.7 0 0 1-2.383-.074 10 10 0 0 1-2.836-1.518c-1.895-1.406-3.513-3.387-4.137-5.085A6.484 6.484 0 0 1 9.497.495Z\"/><path stroke-linecap=\"round\" stroke-width=\"1.43049662\" d=\"m13.932 15.928-.39 1.537a.712.712 0 0 0 .947.849l3.133-1.178a.712.712 0 0 0 .149-1.263l-.99-.658m-.564 2.573c-.148 3.859 2.144 5.716 2.144 5.716M8.208 8.07s.72 2.856 4.292 4.287\"/></g></svg>"
+    "svg": "<svg width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke=\"currentColor\" stroke-width=\"1.43\"><path d=\"M9.497.495a6.484 6.484 0 0 1 8.324 3.859c.619 1.702.669 4.254.124 6.552a10 10 0 0 1-1.177 2.991 3.7 3.7 0 0 1-1.773 1.598 3.7 3.7 0 0 1-2.383-.074 10 10 0 0 1-2.836-1.518c-1.895-1.406-3.513-3.387-4.137-5.085A6.484 6.484 0 0 1 9.497.495Z\"/><path stroke-linecap=\"round\" d=\"m13.932 15.928-.39 1.537a.712.712 0 0 0 .947.849l3.133-1.178a.712.712 0 0 0 .149-1.263l-.99-.658m-.564 2.573c-.148 3.859 2.144 5.716 2.144 5.716M8.208 8.07s.72 2.856 4.292 4.287\"/></g></svg>"
   },
   {
     "name": "Ban",
@@ -225,19 +225,31 @@
     "name": "BarChart",
     "kebabName": "bar-chart",
     "variant": "outline",
-    "svg": "<svg width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-width=\".231\"><path stroke-width=\"1.00108239\" d=\"M3.501 4v15.502c0 .277.226.498.499.498h16.502\"/><path stroke-width=\"1.00108239\" d=\"M5.503 17.504v-6.002a.5.5 0 0 1 .499-.503h2.002c.273 0 .498.226.498.503V17.5a.5.5 0 0 1-.498.502H6.002a.5.5 0 0 1-.499-.502Zm5.001 0V9.5c0-.278.221-.499.499-.499H13a.5.5 0 0 1 .502.499v8a.5.5 0 0 1-.502.502h-1.998a.5.5 0 0 1-.499-.502Zm4.997 0V6.496c0-.273.226-.498.503-.498h1.998c.277 0 .502.225.502.503V17.5a.5.5 0 0 1-.502.502h-1.998a.5.5 0 0 1-.503-.502Z\"/></g></svg>"
+    "svg": "<svg width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-width=\"4.333\"><path stroke-width=\"1.35765889\" d=\"M.47 1.149v21.027c0 .376.306.675.676.675H23.53\"/><path stroke-width=\"1.35765889\" d=\"M3.185 19.466v-8.142a.68.68 0 0 1 .677-.682h2.715c.37 0 .676.307.676.682v8.136a.68.68 0 0 1-.676.682H3.862a.68.68 0 0 1-.677-.682Zm6.784 0V8.609c0-.377.3-.677.676-.677h2.71a.68.68 0 0 1 .68.677V19.46a.68.68 0 0 1-.68.682h-2.711a.68.68 0 0 1-.677-.682Zm6.778 0V4.534c0-.37.306-.675.682-.675h2.71c.376 0 .68.305.68.682V19.46a.68.68 0 0 1-.68.681h-2.71a.68.68 0 0 1-.682-.681Z\"/></g></svg>"
   },
   {
     "name": "Barbell",
     "kebabName": "barbell",
     "variant": "outline",
-    "svg": "<svg width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke=\"currentColor\"><path stroke-width=\"1.00108239\" d=\"M3 12H21\"/><path stroke-linecap=\"round\" stroke-width=\"2.00216478\" d=\"M3 9.5v5M21 9.5v5\"/><path stroke-linecap=\"round\" stroke-width=\"2.9989134799999997\" d=\"M5.998 8v8m12.004-8v8\"/></g></svg>"
+    "svg": "<svg width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke=\"currentColor\"><path stroke-width=\"1.001\" d=\"M3 12h18\"/><path stroke-linecap=\"round\" stroke-width=\"2.002\" d=\"M3 9.5v5m18-5v5\"/><path stroke-linecap=\"round\" stroke-width=\"2.999\" d=\"M5.998 8v8m12.004-8v8\"/></g></svg>"
   },
   {
     "name": "Barcode",
     "kebabName": "barcode",
     "variant": "outline",
-    "svg": "<svg width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-width=\"1.00108239\" d=\"M5.5 5.5H3a.5.5 0 0 0-.5.502v12c0 .277.222.498.5.498h2.5m13-13h2.501a.5.5 0 0 1 .499.502v12A.5.5 0 0 1 21 18.5h-2.5M5.998 8.901v6.197M12 8.901v6.197m6.002-6.197v6.197M9.002 8v8.004M14.998 8v8.004\"/></svg>"
+    "svg": "<svg width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-width=\"1.001\" d=\"M5.5 5.5H3a.5.5 0 0 0-.5.502v12c0 .277.222.498.5.498h2.5m13-13h2.501a.5.5 0 0 1 .499.502v12a.5.5 0 0 1-.5.498h-2.5M5.998 8.901v6.197M12 8.901v6.197m6.002-6.197v6.197M9.002 8v8.004M14.998 8v8.004\"/></svg>"
+  },
+  {
+    "name": "Baseball",
+    "kebabName": "baseball",
+    "variant": "outline",
+    "svg": "<svg width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke=\"currentColor\" transform=\"translate(-49.402 -49.21)scale(1.18081)\"><circle cx=\"52\" cy=\"52\" r=\"8.5\"/><path d=\"M43.66 50.458c4.44 2.423 6.147 4.662 8.01 9.983\"/><path stroke-linecap=\"round\" d=\"m45.738 53.159.987-2.297m.215 3.411 1.61-1.912m-.478 3.452 2.145-1.285M49.1 57.561l2.35-.852\"/><path d=\"M51.96 43.175c1.51 4.827 3.374 6.938 8.23 9.803\"/><path stroke-linecap=\"round\" d=\"m54.203 45.74-2.445.52m3.304.875-2.19 1.207m3.479.204L54.673 50.4m3.193-.505-1.294 2.14\"/></g></svg>"
+  },
+  {
+    "name": "Basket",
+    "kebabName": "basket",
+    "variant": "outline",
+    "svg": "<svg width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><g stroke=\"currentColor\" transform=\"translate(-53.785 -52.54)scale(1.25905)\"><path stroke-linecap=\"round\" d=\"M48.5 49h-3.806a.5.5 0 0 0-.475.658l2.667 8a.5.5 0 0 0 .474.342h9.78a.5.5 0 0 0 .474-.342l2.667-8a.5.5 0 0 0-.475-.658H56m-7.5 0 3.583-4.479a.5.5 0 0 1 .8.026L56 49m-7.5 0H56\"/><circle cx=\"52.5\" cy=\"53.5\" r=\"1.5\"/></g></svg>"
   },
   {
     "name": "Clock",

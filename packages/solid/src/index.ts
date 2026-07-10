@@ -41,6 +41,8 @@ export { Bandage } from './icons/Bandage.js';
 export { BarChart } from './icons/BarChart.js';
 export { Barbell } from './icons/Barbell.js';
 export { Barcode } from './icons/Barcode.js';
+export { Baseball } from './icons/Baseball.js';
+export { Basket } from './icons/Basket.js';
 export { Clock } from './icons/Clock.js';
 export { Dollar } from './icons/Dollar.js';
 export { Plus } from './icons/Plus.js';
