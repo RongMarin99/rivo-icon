@@ -1,0 +1,23 @@
+{
+  "name": "@rivo-icons/docs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "clean": "rm -rf .nuxt .output dist"
+  },
+  "dependencies": {
+    "@rivo-icons/vue": "workspace:*"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.13.0",
+    "typescript": "^5.5.0",
+    "vue": "^3.4.0",
+    "vue-tsc": "^2.0.0"
+  }
+}

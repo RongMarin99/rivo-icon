@@ -1,0 +1,22 @@
+<script lang="ts">
+  export let size: number | string = 24;
+  export let color: string = 'currentColor';
+  export let strokeWidth: number | string = 2;
+  let className: string = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class={className}
+>
+  {@html "<path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-width=\"1.001\" d=\"M17.382 13.933V3.766a.1.1 0 0 0-.1-.1H3.485a.1.1 0 0 0-.1.1v13.799q.009.09.1.1h10.167\"/><path fill=\"currentColor\" d=\"M9.573 10.691a.538.538 0 1 1 .758-.762l-.377.38zm10.847 9.547a.537.537 0 0 1-.537.538H15.05a.537.537 0 1 1 0-1.075h4.29v-4.295a.54.54 0 0 1 1.08 0zM9.95 10.31l.377-.381 9.928 9.928-.377.381-.381.382-9.924-9.929z\"/>"}
+</svg>

@@ -1,0 +1,28 @@
+{
+  "name": "@rivo-icons/solid",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --external solid-js",
+    "dev": "tsup src/index.ts --format esm --dts --external solid-js --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "peerDependencies": {
+    "solid-js": ">=1.0.0"
+  },
+  "dependencies": {
+    "@rivo-icons/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "solid-js": "^1.8.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,6 @@
+import { createIcon } from '../createIcon.js';
+
+export const ArrowDownRightBox = createIcon(
+  <><path stroke="currentColor" strokeLinecap="round" strokeWidth="1.001" d="M17.382 13.933V3.766a.1.1 0 0 0-.1-.1H3.485a.1.1 0 0 0-.1.1v13.799q.009.09.1.1h10.167"/><path fill="currentColor" d="M9.573 10.691a.538.538 0 1 1 .758-.762l-.377.38zm10.847 9.547a.537.537 0 0 1-.537.538H15.05a.537.537 0 1 1 0-1.075h4.29v-4.295a.54.54 0 0 1 1.08 0zM9.95 10.31l.377-.381 9.928 9.928-.377.381-.381.382-9.924-9.929z"/></>,
+  'ArrowDownRightBox',
+);

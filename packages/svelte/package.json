@@ -1,0 +1,31 @@
+{
+  "name": "@rivo-icons/svelte",
+  "version": "0.0.1",
+  "type": "module",
+  "svelte": "src/index.js",
+  "exports": {
+    ".": {
+      "svelte": "./src/index.js",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "svelte-package -i src",
+    "dev": "svelte-package -i src --watch",
+    "typecheck": "svelte-check",
+    "clean": "rm -rf dist"
+  },
+  "peerDependencies": {
+    "svelte": ">=4.0.0"
+  },
+  "dependencies": {
+    "@rivo-icons/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@sveltejs/package": "^2.0.0",
+    "svelte": "^4.0.0",
+    "svelte-check": "^3.0.0",
+    "typescript": "^5.5.0"
+  }
+}

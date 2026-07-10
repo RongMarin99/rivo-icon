@@ -1,0 +1,23 @@
+{
+  "name": "rivo-icons",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "clean": "turbo clean",
+    "icons:validate": "tsx scripts/validate.ts",
+    "icons:optimize": "tsx scripts/optimize.ts",
+    "icons:generate": "tsx scripts/optimize.ts && tsx scripts/generate.ts",
+    "icons:build": "tsx scripts/build.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "svgo": "^3.3.0",
+    "tsx": "^4.19.0",
+    "turbo": "^2.3.0",
+    "typescript": "^5.5.0"
+  }
+}

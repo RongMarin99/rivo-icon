@@ -1,0 +1,25 @@
+{
+  "name": "@rivo-icons/nuxt",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/module.mjs",
+      "types": "./dist/types.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "nuxt-module-build build",
+    "dev": "nuxt-module-build build --stub",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.13.0",
+    "@rivo-icons/vue": "workspace:*"
+  },
+  "devDependencies": {
+    "@nuxt/module-builder": "^0.8.0",
+    "typescript": "^5.5.0"
+  }
+}

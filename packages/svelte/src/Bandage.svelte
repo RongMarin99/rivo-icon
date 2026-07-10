@@ -1,0 +1,22 @@
+<script lang="ts">
+  export let size: number | string = 24;
+  export let color: string = 'currentColor';
+  export let strokeWidth: number | string = 2;
+  let className: string = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class={className}
+>
+  {@html "<g transform=\"translate(-51.429 -52.168)scale(1.228)\"><path stroke=\"currentColor\" stroke-linecap=\"round\" d=\"m43.511 56.299 12.287-12.1a.5.5 0 0 1 .476-.126c2.277.621 2.987 1.31 3.65 3.648a.5.5 0 0 1-.128.483l-12.1 12.1a.5.5 0 0 1-.466.132c-2.306-.562-3.188-1.245-3.85-3.658a.49.49 0 0 1 .131-.48Z\"/><path stroke=\"currentColor\" d=\"m52.37 47.437 4.242 4.242m-9.192.707 4.243 4.243\"/><circle cx=\"52\" cy=\"50.586\" r=\".5\" fill=\"currentColor\" transform=\"rotate(45 52 50.586)\"/><circle cx=\"53.414\" cy=\"52\" r=\".5\" fill=\"currentColor\" transform=\"rotate(45 53.414 52)\"/><circle cx=\"50.586\" cy=\"52\" r=\".5\" fill=\"currentColor\" transform=\"rotate(45 50.586 52)\"/><circle cx=\"52\" cy=\"53.414\" r=\".5\" fill=\"currentColor\" transform=\"rotate(45 52 53.414)\"/></g>"}
+</svg>
