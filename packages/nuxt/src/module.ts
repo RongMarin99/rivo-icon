@@ -1,10 +1,11 @@
 import { defineNuxtModule, addComponent, createResolver } from '@nuxt/kit';
+import type { NuxtModule } from '@nuxt/schema';
 
 export interface ModuleOptions {
   prefix: string;
 }
 
-export default defineNuxtModule<ModuleOptions>({
+const module: NuxtModule<ModuleOptions> = defineNuxtModule<ModuleOptions>({
   meta: {
     name: '@rivo-icons/nuxt',
     configKey: 'rivoIcons',
@@ -27,3 +28,5 @@ export default defineNuxtModule<ModuleOptions>({
     // });
   },
 });
+
+export default module;

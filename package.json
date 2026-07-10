@@ -12,7 +12,9 @@
     "icons:optimize": "tsx scripts/optimize.ts",
     "icons:generate": "tsx scripts/optimize.ts && tsx scripts/generate.ts",
     "icons:build": "tsx scripts/build.ts",
-    "icons:preview": "tsx scripts/preview.ts"
+    "icons:preview": "tsx scripts/preview.ts",
+    "build:packages": "pnpm -r --filter \"./packages/*\" build",
+    "release": "pnpm build:packages && pnpm publish -r --access public --no-git-checks"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

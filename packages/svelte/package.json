@@ -1,6 +1,32 @@
 {
   "name": "@rivo-icons/svelte",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "description": "Free, open-source SVG icons for Svelte and SvelteKit — currentColor, TypeScript, tree-shakeable",
+  "keywords": [
+    "icons",
+    "svg",
+    "icon-library",
+    "svelte",
+    "sveltekit",
+    "svelte-icons",
+    "svelte-components",
+    "currentColor",
+    "typescript",
+    "tree-shakeable",
+    "ui"
+  ],
+  "homepage": "https://rivo-icon.rongmarin.info",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RongMarin99/rivo-icon.git",
+    "directory": "packages/svelte"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
   "type": "module",
   "svelte": "src/index.js",
   "exports": {

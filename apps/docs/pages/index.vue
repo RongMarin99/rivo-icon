@@ -1,10 +1,10 @@
 <script setup lang="ts">
 useSeoMeta({
   title: 'Rivo Icons — Free SVG Icons for Web Developers',
-  description: 'Free, open-source SVG icons for React, Vue, Nuxt, Svelte, and Solid. 44 beautiful hand-crafted icons with currentColor support.',
+  description: 'Free, open-source SVG icons for React, Vue, Nuxt, Svelte, and Solid. 46 beautiful hand-crafted icons with currentColor support.',
   ogTitle: 'Rivo Icons — Free SVG Icons for Web Developers',
-  ogDescription: 'Free, open-source SVG icons for React, Vue, Nuxt, Svelte, and Solid. 44 beautiful icons.',
-  ogUrl: 'https://rivo-icons.dev',
+  ogDescription: 'Free, open-source SVG icons for React, Vue, Nuxt, Svelte, and Solid. 46 beautiful icons.',
+  ogUrl: 'https://rivo-icon.rongmarin.info',
   twitterTitle: 'Rivo Icons — Free SVG Icons',
   twitterDescription: 'Free, open-source SVG icons for React, Vue, Nuxt, Svelte, and Solid.',
 })

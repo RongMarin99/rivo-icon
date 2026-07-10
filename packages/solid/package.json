@@ -1,6 +1,31 @@
 {
   "name": "@rivo-icons/solid",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "description": "Free, open-source SVG icons for Solid.js — currentColor, TypeScript, tree-shakeable",
+  "keywords": [
+    "icons",
+    "svg",
+    "icon-library",
+    "solid",
+    "solid-js",
+    "solidjs",
+    "solid-icons",
+    "currentColor",
+    "typescript",
+    "tree-shakeable",
+    "ui"
+  ],
+  "homepage": "https://rivo-icon.rongmarin.info",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RongMarin99/rivo-icon.git",
+    "directory": "packages/solid"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "type": "module",
   "exports": {
     ".": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "installCommand": "pnpm install --frozen-lockfile",
-  "buildCommand": "pnpm --filter @rivo-icons/docs build",
+  "buildCommand": "pnpm icons:generate && pnpm --filter @rivo-icons/docs build",
   "outputDirectory": "apps/docs/.vercel/output",
   "framework": null
 }

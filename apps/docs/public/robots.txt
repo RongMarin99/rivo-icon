@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rivo-icons.dev/sitemap.xml
+Sitemap: https://rivo-icon.rongmarin.info/sitemap.xml

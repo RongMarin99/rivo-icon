@@ -1,6 +1,31 @@
 {
   "name": "@rivo-icons/react",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "description": "Free, open-source SVG icons for React — currentColor, TypeScript, tree-shakeable",
+  "keywords": [
+    "icons",
+    "svg",
+    "icon-library",
+    "react",
+    "react-icons",
+    "react-components",
+    "currentColor",
+    "typescript",
+    "tree-shakeable",
+    "ui",
+    "design-system"
+  ],
+  "homepage": "https://rivo-icon.rongmarin.info",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RongMarin99/rivo-icon.git",
+    "directory": "packages/react"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "type": "module",
   "exports": {
     ".": {

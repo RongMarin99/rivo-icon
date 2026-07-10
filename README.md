@@ -10,7 +10,7 @@
 
 **46** hand-crafted SVG icons. 24×24 px canvas. 1.5px stroke. `currentColor` throughout. Tree-shakeable. TypeScript types included.
 
-[**Browse Icons →**](https://rivo-icons.dev/icons) · [**Docs →**](https://rivo-icons.dev/docs/getting-started)
+[**Browse Icons →**](https://rivo-icon.rongmarin.info/icons) · [**Docs →**](https://rivo-icon.rongmarin.info/docs/getting-started)
 
 ---
 
@@ -109,7 +109,7 @@ export default function App() {
 
 ### Raw SVG
 
-Copy SVG markup directly from the [icon browser](https://rivo-icons.dev/icons) or from the `icons/` directory.
+Copy SVG markup directly from the [icon browser](https://rivo-icon.rongmarin.info/icons) or from the `icons/` directory.
 
 ---
 

@@ -1,6 +1,32 @@
 {
   "name": "@rivo-icons/nuxt",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "description": "Nuxt module for Rivo Icons — auto-imported SVG icon components, currentColor, TypeScript",
+  "keywords": [
+    "icons",
+    "svg",
+    "icon-library",
+    "nuxt",
+    "nuxt3",
+    "nuxt-module",
+    "nuxt-icons",
+    "auto-import",
+    "vue",
+    "currentColor",
+    "typescript",
+    "ssr"
+  ],
+  "homepage": "https://rivo-icon.rongmarin.info",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RongMarin99/rivo-icon.git",
+    "directory": "packages/nuxt"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "type": "module",
   "exports": {
     ".": {
