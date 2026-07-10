@@ -40,5 +40,6 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: process.env.VERCEL ? 'vercel' : 'node-server',
+    serverAssets: [{ baseName: 'icons', dir: 'public', pattern: 'icons.json' }],
   },
 })

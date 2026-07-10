@@ -17,7 +17,7 @@ interface IconEntry {
 }
 
 const { data: allIcons } = await useAsyncData('icons-home', () =>
-  $fetch<IconEntry[]>('/icons.json')
+  $fetch<IconEntry[]>('/api/icons')
 )
 
 // Show a curated subset of outline icons in the hero preview

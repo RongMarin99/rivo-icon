@@ -35,7 +35,7 @@ const FRAMEWORKS: { key: Framework; label: string }[] = [
 const CLOSE_SCRIPT = '</' + 'script>'
 
 const { data: iconsData } = await useAsyncData('icons-browser', () =>
-  $fetch<IconEntry[]>('/icons.json')
+  $fetch<IconEntry[]>('/api/icons')
 )
 const icons = computed(() => iconsData.value ?? [])
 
