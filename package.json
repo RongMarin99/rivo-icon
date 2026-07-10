@@ -11,7 +11,8 @@
     "icons:validate": "tsx scripts/validate.ts",
     "icons:optimize": "tsx scripts/optimize.ts",
     "icons:generate": "tsx scripts/optimize.ts && tsx scripts/generate.ts",
-    "icons:build": "tsx scripts/build.ts"
+    "icons:build": "tsx scripts/build.ts",
+    "icons:preview": "tsx scripts/preview.ts"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
