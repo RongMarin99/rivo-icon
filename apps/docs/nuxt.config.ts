@@ -28,8 +28,11 @@ export default defineNuxtConfig({
         },
         { property: 'og:site_name', content: 'Rivo Icons' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:image', content: '/og.png' },
+        { property: 'og:image', content: 'https://rivo-icon.rongmarin.info/og.png' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
         { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: 'https://rivo-icon.rongmarin.info/og.png' },
         { name: 'theme-color', content: '#6366f1' },
       ],
       link: [
