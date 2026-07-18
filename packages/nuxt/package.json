@@ -1,6 +1,6 @@
 {
   "name": "@rivo-icons/nuxt",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Nuxt module for Rivo Icons — auto-imported SVG icon components, currentColor, TypeScript",
   "keywords": [
     "icons",

@@ -1,6 +1,6 @@
 {
   "name": "@rivo-icons/svelte",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Free, open-source SVG icons for Svelte and SvelteKit — currentColor, TypeScript, tree-shakeable",
   "keywords": [
     "icons",
